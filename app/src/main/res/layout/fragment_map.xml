@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F7FA"
+    tools:context=".MapFragment"
+    android:id="@+id/frameContainer">
+
+    <io.getstream.photoview.PhotoView
+        android:id="@+id/photoView"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="match_parent"
+        android:src="@drawable/mapa2"/>
+
+    <ImageView
+        android:id="@+id/pin1"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/pin3"
+        android:layout_gravity="top|start"
+        android:visibility="visible" />
+    <ImageView
+        android:id="@+id/pin2"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/pin3"
+        android:layout_gravity="top|start"
+        android:visibility="visible"/>
+    <ImageView
+        android:id="@+id/pin3"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/pin3"
+        android:layout_gravity="top|start"
+        android:visibility="visible"/>
+    <ImageView
+        android:id="@+id/pin4"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/pin4"
+        android:layout_gravity="top|start"
+        android:visibility="visible"/>
+
+</FrameLayout>
